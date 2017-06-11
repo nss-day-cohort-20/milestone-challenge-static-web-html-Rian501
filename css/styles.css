@@ -1,0 +1,11 @@
+/************************************
+BASE STYLES
+************************************/
+body {
+	background-color: yellow;
+}
+
+nav li,
+#links p {
+	display: inline;
+}
