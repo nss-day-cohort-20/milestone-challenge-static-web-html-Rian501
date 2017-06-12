@@ -2,10 +2,24 @@
 BASE STYLES
 ************************************/
 body {
-	background-color: yellow;
-}
+/*	background-color: yellow;
+*/}
 
 nav li,
 #links p {
 	display: inline;
+}
+
+
+/************************************
+FOOTER STYLES
+************************************/
+.soc-med-icon {
+	display: inline-block;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.linkedin {
+	background-image: url('images/linkedin.png');
 }
