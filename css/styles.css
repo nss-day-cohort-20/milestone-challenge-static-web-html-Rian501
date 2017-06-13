@@ -10,6 +10,10 @@ body {
 	text-decoration: none;
 }
 
+h2 {
+	text-align: center;
+}
+
 /************************************
 NAV STYLES
 ************************************/
@@ -50,6 +54,10 @@ header h3 {
 	margin: .2em 6px .2em 0;
 }
 
+header h1 {
+	margin-right: 6px;
+}
+
 .enhance-readability {
 	text-shadow: -4px -2px 7px black;
 }
@@ -65,12 +73,25 @@ header h3 {
 /************************************
 FOOTER STYLES
 ************************************/
-.soc-med-icon {
-	display: inline-block;
-	background-size: cover;
-	background-repeat: no-repeat;
+footer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
 
-.linkedin {
-	background-image: url('images/linkedin.png');
+.soc-med-icons {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
 }
+
+footer img {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+
+
+//First mediaquery at 430px
