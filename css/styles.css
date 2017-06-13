@@ -2,13 +2,64 @@
 BASE STYLES
 ************************************/
 body {
-/*	background-color: yellow;
-*/}
+	background-color: #63A6EA;
+}
 
-nav li,
 #links p {
 	display: inline;
+	text-decoration: none;
 }
+
+/************************************
+NAV STYLES
+************************************/
+nav ul {
+display: flex;
+flex-direction: column;
+max-width: 100%;
+margin: 0 0 0 -40px;
+
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 4px;
+	color: white;
+}
+
+nav ul li {
+	border: 2px solid #FAFF7C;
+	list-style-type: none;
+	text-align: center;
+	background-color: rgba(58, 104, 188, 0.6);
+	margin: 2px;
+	border-radius: 5px;
+}
+
+/************************************
+HEADER STYLES
+************************************/
+header {
+	color: #D9D04F;
+	text-align: right;
+}
+
+header h2,
+header h3 {
+	margin: .2em 6px .2em 0;
+}
+
+.enhance-readability {
+	text-shadow: -4px -2px 7px black;
+}
+
+.top-wrapper {
+	background-image: url('../images/blueflowersq.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 
 
 /************************************
