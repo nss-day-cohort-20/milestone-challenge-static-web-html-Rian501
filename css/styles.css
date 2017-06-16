@@ -13,6 +13,7 @@ body {
 
 main h2 {
 	text-align: center;
+	margin-top: 40px;
 }
 
 article {
@@ -78,9 +79,19 @@ BIO STYLES
 .profile-photo {
 	height: 250px;
 	border-radius: 50%;
-	float: right;
+	display: block;
+	margin: auto;
 }
 
+/************************************
+PROJECTS STYLES
+************************************/
+.projects-image {
+	max-height: 300px;
+	max-width: 95%;
+	display: block;
+	margin: auto;
+}
 
 /************************************
 BLOG STYLES
@@ -115,4 +126,4 @@ footer img {
 
 
 
-//First mediaquery at 430px
+//First mediaquery at 492px
