@@ -3,7 +3,7 @@ console.log("Well at least the JS is linked!", );
 
 let blogPosts = document.getElementById('blog-entries')
 
-let week1 = "Week one reflection and description and stuff";
+let week1 = "Week one reflection and description and stuff to be copied from the blog document I've been adding to (see:articles) - note to self";
 let week2 = "Week two reflection and description and stuff";
 let week3 = "Week three reflection and description and stuff";
 
