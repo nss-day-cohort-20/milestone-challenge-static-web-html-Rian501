@@ -3,6 +3,7 @@ BASE STYLES
 ************************************/
 body {
 	background-color: #63A6EA;
+	font-family: 'PT Serif', serif;
 }
 
 #links p {
@@ -10,8 +11,12 @@ body {
 	text-decoration: none;
 }
 
-h2 {
+main h2 {
 	text-align: center;
+}
+
+article {
+	margin: 12px;
 }
 
 /************************************
@@ -67,7 +72,22 @@ header h1 {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+/************************************
+BIO STYLES
+************************************/
+.profile-photo {
+	height: 250px;
+	border-radius: 50%;
+	float: right;
+}
 
+
+/************************************
+BLOG STYLES
+************************************/
+.blog-entry {
+	padding-bottom: 1.5em;
+}
 
 
 /************************************
@@ -77,6 +97,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	border-top: 1px solid rgba(58, 104, 188, 0.6);
 }
 
 .soc-med-icons {
